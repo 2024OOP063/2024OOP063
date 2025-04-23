@@ -4,8 +4,8 @@
 double pi = M_PI;
 
 double Cylinder :: SurfaceArea(){
-    double ans = pi * radius * radius * 2 + pi * 2 * radius * height;
-    return ans;
+    double ans1 = pi * radius * radius * 2 + pi * 2 * radius * height;
+    return ans1;
 }
 
 double Cylinder :: Volume(){
